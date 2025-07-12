@@ -39,3 +39,7 @@ export type ResAction = {
   code: number;
 };
 ```
+
+## License
+
+[ISC](./LICENSE)

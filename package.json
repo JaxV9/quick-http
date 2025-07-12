@@ -1,7 +1,8 @@
 {
-  "name": "quick-http",
-  "version": "1.0.0",
-  "main": "src/index.ts",
+  "name": "@jaslay/http",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -11,5 +12,13 @@
   "description": "",
   "devDependencies": {
     "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaxV9/quick-http"
   }
 }
